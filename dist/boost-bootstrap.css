@@ -1,0 +1,334 @@
+/*
+A lot of very useful class names for html elements
+when working with bootstrap.
+*/
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  outline: none;
+}
+/*
+Remove margins and paddings
+---------------------------
+*/
+.nm {
+  margin: 0;
+}
+.nmt {
+  margin-top: 0;
+}
+.nmr {
+  margin-right: 0;
+}
+.nmb {
+  margin-bottom: 0;
+}
+.nml {
+  margin-left: 0;
+}
+.npt {
+  padding-top: 0;
+}
+.npr {
+  padding-right: 0;
+}
+.npb {
+  padding-bottom: 0;
+}
+.npl {
+  padding-left: 0;
+}
+/*
+Gutter width based margins and paddings
+---------------------------------------
+*/
+.mtgw {
+  margin-top: 30px;
+}
+.mrgw {
+  margin-right: 30px;
+}
+.mbgw {
+  margin-bottom: 30px;
+}
+.mlgw {
+  margin-left: 30px;
+}
+.mtgw-05x {
+  margin-top: 15px;
+}
+.mrgw-05x {
+  margin-right: 15px;
+}
+.mbgw-05x {
+  margin-bottom: 15px;
+}
+.mlgw-05x {
+  margin-left: 15px;
+}
+.mtgw-2x {
+  margin-top: 60px;
+}
+.mrgw-2x {
+  margin-right: 60px;
+}
+.mbgw-2x {
+  margin-bottom: 60px;
+}
+.mlgw-2x {
+  margin-left: 60px;
+}
+@media (max-width: 767px) {
+  .xs-mtgw {
+    margin-top: 30px;
+  }
+  .xs-mrgw {
+    margin-right: 30px;
+  }
+  .xs-mbgw {
+    margin-bottom: 30px;
+  }
+  .xs-mlgw {
+    margin-left: 30px;
+  }
+  .xs-mtgw-05x {
+    margin-top: 15px;
+  }
+  .xs-mrgw-05x {
+    margin-right: 15px;
+  }
+  .xs-mbgw-05x {
+    margin-bottom: 15px;
+  }
+  .xs-mlgw-05x {
+    margin-left: 15px;
+  }
+  .xs-mtgw-2x {
+    margin-top: 60px;
+  }
+  .xs-mrgw-2x {
+    margin-right: 60px;
+  }
+  .xs-mbgw-2x {
+    margin-bottom: 60px;
+  }
+  .xs-mlgw-2x {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sm-mtgw {
+    margin-top: 30px;
+  }
+  .sm-mrgw {
+    margin-right: 30px;
+  }
+  .sm-mbgw {
+    margin-bottom: 30px;
+  }
+  .sm-mlgw {
+    margin-left: 30px;
+  }
+  .sm-mtgw-05x {
+    margin-top: 15px;
+  }
+  .sm-mrgw-05x {
+    margin-right: 15px;
+  }
+  .sm-mbgw-05x {
+    margin-bottom: 15px;
+  }
+  .sm-mlgw-05x {
+    margin-left: 15px;
+  }
+  .sm-mtgw-2x {
+    margin-top: 60px;
+  }
+  .sm-mrgw-2x {
+    margin-right: 60px;
+  }
+  .sm-mbgw-2x {
+    margin-bottom: 60px;
+  }
+  .sm-mlgw-2x {
+    margin-left: 60px;
+  }
+}
+.ptgw {
+  padding-top: 30px;
+}
+.prgw {
+  padding-right: 30px;
+}
+.pbgw {
+  padding-bottom: 30px;
+}
+.plgw {
+  padding-left: 30px;
+}
+.ptgw-05x {
+  padding-top: 15px;
+}
+.prgw-05x {
+  padding-right: 15px;
+}
+.pbgw-05x {
+  padding-bottom: 15px;
+}
+.plgw-05x {
+  padding-left: 15px;
+}
+.ptgw-2x {
+  padding-top: 60px;
+}
+.prgw-2x {
+  padding-right: 60px;
+}
+.pbgw-2x {
+  padding-bottom: 60px;
+}
+.plgw-2x {
+  padding-left: 60px;
+}
+@media (max-width: 767px) {
+  .xs-ptgw {
+    padding-top: 30px;
+  }
+  .xs-prgw {
+    padding-right: 30px;
+  }
+  .xs-pbgw {
+    padding-bottom: 30px;
+  }
+  .xs-plgw {
+    padding-left: 30px;
+  }
+  .xs-ptgw-05x {
+    padding-top: 15px;
+  }
+  .xs-prgw-05x {
+    padding-right: 15px;
+  }
+  .xs-pbgw-05x {
+    padding-bottom: 15px;
+  }
+  .xs-plgw-05x {
+    padding-left: 15px;
+  }
+  .xs-ptgw-2x {
+    padding-top: 60px;
+  }
+  .xs-prgw-2x {
+    padding-right: 60px;
+  }
+  .xs-pbgw-2x {
+    padding-bottom: 60px;
+  }
+  .xs-plgw-2x {
+    padding-left: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sm-ptgw {
+    padding-top: 30px;
+  }
+  .sm-prgw {
+    padding-right: 30px;
+  }
+  .sm-pbgw {
+    padding-bottom: 30px;
+  }
+  .sm-plgw {
+    padding-left: 30px;
+  }
+  .sm-ptgw-05x {
+    padding-top: 15px;
+  }
+  .sm-prgw-05x {
+    padding-right: 15px;
+  }
+  .sm-pbgw-05x {
+    padding-bottom: 15px;
+  }
+  .sm-plgw-05x {
+    padding-left: 15px;
+  }
+  .sm-ptgw-2x {
+    padding-top: 60px;
+  }
+  .sm-prgw-2x {
+    padding-right: 60px;
+  }
+  .sm-pbgw-2x {
+    padding-bottom: 60px;
+  }
+  .sm-plgw-2x {
+    padding-left: 60px;
+  }
+}
+/*
+Remove borders
+--------------
+*/
+.nbt {
+  border-top: none !important;
+}
+.nbl {
+  border-left: none !important;
+}
+.nbr {
+  border-right: none !important;
+}
+.nbb {
+  border-bottom: none !important;
+}
+/*
+Utilities for various elements
+------------------------------
+*/
+.block {
+  display: block;
+}
+.centered {
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+}
+.vcw {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.vci {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+/*
+Text align
+----------
+*/
+.ta-left {
+  text-align: left;
+}
+.ta-center {
+  text-align: center;
+}
+.ta-right {
+  text-align: right;
+}
+.ta-justify {
+  text-align: justify;
+}
+/*
+Vertical align
+--------------
+*/
+.va-middle {
+  vertical-align: middle;
+}
+.upper {
+  text-transform: uppercase;
+}
