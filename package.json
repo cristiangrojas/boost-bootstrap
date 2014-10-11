@@ -1,6 +1,6 @@
 {
   "name": "boost-bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of mixins, variables and class-names for html elements that makes my daily bootstrap front-end development easier.",
   "main": "Gruntfile.js",
   "repository": {

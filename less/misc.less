@@ -164,17 +164,35 @@ Utilities for various elements
     margin: 0 auto;
 }
 
-// vertically centered elements
-.vcw { // vertically centered wrapper
-    display: table;
-    // TODO check these rules:
-    width: 100%;
-    height: 100%;
+// Vertically centered elements
+// -----------------------------------------------------------------------------
+// Example markup
+// <div class="vcw">
+//     <div class="vci">
+//         <p>I'm vertically centered</p>
+//     </div>
+// </div>
+.vcw { .vertically-centered-wrapper(); } // wrapper
+.vci { .vertically-centered-wrapped(); } // inner
+
+@media (min-width: @screen-xs-min) and (max-width: @screen-xs-max){
+    .xs-vcw { .vertically-centered-wrapper(); }
+    .xs-vci { .vertically-centered-wrapped(); }
 }
-.vci { // vertically centered inner
-    display: table-cell;
-    vertical-align: middle;
-    float: none; // for some elements that may be floated
+
+@media (min-width: @screen-sm-min){
+    .sm-vcw { .vertically-centered-wrapper(); }
+    .sm-vci { .vertically-centered-wrapped(); }
+}
+
+@media (min-width: @screen-md-min){
+    .md-vcw { .vertically-centered-wrapper(); }
+    .md-vci { .vertically-centered-wrapped(); }
+}
+
+@media (min-width: @screen-lg-min){
+    .lg-vcw { .vertically-centered-wrapper(); }
+    .lg-vci { .vertically-centered-wrapped(); }
 }
 
 /*
