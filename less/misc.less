@@ -48,11 +48,12 @@ Gutter width based margins and paddings
 .mbgw-andhalf { margin-bottom: @grid-gutter-width * 1.5 !important; }
 .mlgw-andhalf { margin-left: @grid-gutter-width * 1.5 !important; }
 
-// double gutter width
-.mtgw-2x { margin-top: @grid-gutter-width * 2 !important; }
-.mrgw-2x { margin-right: @grid-gutter-width * 2 !important; }
-.mbgw-2x { margin-bottom: @grid-gutter-width * 2 !important; }
-.mlgw-2x { margin-left: @grid-gutter-width * 2 !important; }
+// double, triple, quadruple and quintuple gutter width
+#spacing > .margin(@x: 1);
+#spacing > .margin(@x: 2);
+#spacing > .margin(@x: 3);
+#spacing > .margin(@x: 4);
+#spacing > .margin(@x: 5);
 
 @media (max-width: @screen-xs-max){
   .xs-mtgw { margin-top: @grid-gutter-width !important; }
@@ -122,11 +123,12 @@ Gutter width based margins and paddings
 .pbgw-andhalf { padding-bottom: @grid-gutter-width * 1.5 !important; }
 .plgw-andhalf { padding-left: @grid-gutter-width * 1.5 !important; }
 
-// double gutter width
-.ptgw-2x { padding-top: @grid-gutter-width * 2 !important; }
-.prgw-2x { padding-right: @grid-gutter-width * 2 !important; }
-.pbgw-2x { padding-bottom: @grid-gutter-width * 2 !important; }
-.plgw-2x { padding-left: @grid-gutter-width * 2 !important; }
+// double, triple, quadruple and quintuple gutter width
+#spacing > .padding(@x: 1);
+#spacing > .padding(@x: 2);
+#spacing > .padding(@x: 3);
+#spacing > .padding(@x: 4);
+#spacing > .padding(@x: 5);
 
 @media (max-width: @screen-xs-max){
   // single gutter width
