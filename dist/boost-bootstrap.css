@@ -276,6 +276,18 @@ Gutter width based margins and paddings
 .plgw-andhalf {
   padding-left: 45px !important;
 }
+.ptgw-1x {
+  padding-top: 30px !important;
+}
+.prgw-1x {
+  padding-right: 30px !important;
+}
+.pbgw-1x {
+  padding-bottom: 30px !important;
+}
+.plgw-1x {
+  padding-left: 30px !important;
+}
 .ptgw-2x {
   padding-top: 60px !important;
 }
@@ -287,6 +299,42 @@ Gutter width based margins and paddings
 }
 .plgw-2x {
   padding-left: 60px !important;
+}
+.ptgw-3x {
+  padding-top: 90px !important;
+}
+.prgw-3x {
+  padding-right: 90px !important;
+}
+.pbgw-3x {
+  padding-bottom: 90px !important;
+}
+.plgw-3x {
+  padding-left: 90px !important;
+}
+.ptgw-4x {
+  padding-top: 120px !important;
+}
+.prgw-4x {
+  padding-right: 120px !important;
+}
+.pbgw-4x {
+  padding-bottom: 120px !important;
+}
+.plgw-4x {
+  padding-left: 120px !important;
+}
+.ptgw-5x {
+  padding-top: 150px !important;
+}
+.prgw-5x {
+  padding-right: 150px !important;
+}
+.pbgw-5x {
+  padding-bottom: 150px !important;
+}
+.plgw-5x {
+  padding-left: 150px !important;
 }
 @media (max-width: 767px) {
   .xs-ptgw {
